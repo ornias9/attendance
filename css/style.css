@@ -6,7 +6,7 @@
   font-size: 1.5rem;
 }
 
-#login .form-control:focus {
-  /* border-color: #212529; */
+/* bootstrap class styles */
+.form-control:focus {
   box-shadow: none;
 }
