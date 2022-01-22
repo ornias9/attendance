@@ -23,7 +23,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Attendance Login/Submit</title>
+    <title>Login or Submit Attendance</title>
+
+    <!-- JS link -->
+    <script defer src="/script.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -86,7 +89,6 @@
     </section>
 
     <!-- Submit attendance modal -->
-
     <div class="modal" id="submitModal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -137,10 +139,9 @@
               <textarea cols="30" rows="10" class="form-control"></textarea>
             </form>
             <a
-              href="#"
+              id="submitAttendanceBtn"
+              href="index.html"
               class="btn btn-primary d-block mt-3"
-              data-bs-toggle="modal"
-              data-bs-target="#submitModal"
               >Submit Attendance</a
             >
           </div>

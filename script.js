@@ -1,1 +1,17 @@
-"use strict";
+'use strict';
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Elements
+const btnLogout = document.querySelector('#logoutBtn');
+const btnSubmitAttendance = document.querySelector('#submitAttendanceBtn');
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Event handlers
+
+btnLogout.addEventListener('click', function () {
+  location.href = 'login.html';
+});
+
+btnSubmitAttendance.addEventListener('click', function () {
+  console.log('hello');
+});

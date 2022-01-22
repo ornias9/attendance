@@ -24,8 +24,76 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Attendance</title>
+
+    <!-- JS link -->
+    <script defer src="/script.js"></script>
   </head>
   <body>
-    adslfk
+    <!-- Header section -->
+    <header id="indexHeader">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-between py-2">
+            <h3 class="welcome my-3 text-white">Greetings, Little mouse</h3>
+            <a id="logoutBtn" href="#" class="btn btn-danger my-3"
+              >Logout <i class="fas fa-times ms-2"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- attendance details section -->
+    <section id="attendanceDetails" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card text-center">
+              <div class="card-header">
+                <h4 class="attendanceDetailsHeader">Attendance Details</h4>
+              </div>
+              <table class="table table-striped mb-0">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Date</th>
+                    <th>Check-In time</th>
+                    <th>Check-Out time</th>
+                    <th>Status</th>
+                    <th>Remarks</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1 Jan,2022</td>
+                    <td>09:15</td>
+                    <td>06:20</td>
+                    <td>Present</td>
+                    <td></td>
+                    <td><a href="#" class="btn btn-primary">Edit</a></td>
+                  </tr>
+                  <tr>
+                    <td>2 Jan,2022</td>
+                    <td>09:08</td>
+                    <td>06:15</td>
+                    <td>Present</td>
+                    <td></td>
+                    <td><a href="#" class="btn btn-primary">Edit</a></td>
+                  </tr>
+                  <tr>
+                    <td>3 Jan,2022</td>
+                    <td>09:35</td>
+                    <td>06:45</td>
+                    <td>Present</td>
+                    <td></td>
+                    <td><a href="#" class="btn btn-primary">Edit</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
